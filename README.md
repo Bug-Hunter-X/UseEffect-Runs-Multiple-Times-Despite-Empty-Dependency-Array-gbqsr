@@ -1,0 +1,3 @@
+# useEffect Runs Multiple Times Despite Empty Dependency Array
+
+This repository demonstrates a subtle bug in React's `useEffect` hook where it runs more than once even with an empty dependency array. This can occur due to unexpected re-renders triggered by other parts of the component or its parent components. The bug is difficult to detect and can lead to performance issues or unexpected behavior. The solution involves careful analysis of component updates and a strategic re-structuring to prevent unnecessary re-renders. The provided code examples illustrate the problem and the solution.
